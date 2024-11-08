@@ -1,0 +1,137 @@
+/* Estilo base para la página */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1;  /* Blanco suave */
+    color: #34495e;  /* Gris oscuro para el texto */
+}
+
+header {
+    background-color: #2c3e50;  /* Azul marino */
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #1f598d;  /* Azul más oscuro */
+    transform: scale(1.1);
+}
+
+/* Estilos para la sección de Título y Slogan */
+.intro-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #3498db; /* Azul celeste */
+    color: white;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.slogan {
+    font-size: 24px;
+    font-style: italic;
+    margin-top: 0;
+    color: #f39c12;  /* Amarillo suave para el slogan */
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 50px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 60px;
+    padding: 20px;
+    background-color: #fff;  /* Blanco para el fondo de las secciones */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2980b9;  /* Azul profundo */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background-color: #3498db;  /* Azul celeste */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.tab-button:hover {
+    background-color: #2980b9;
+}
+
+.tab-button.active {
+    background-color: #2980b9;
+}
+
+.tab-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+footer {
+    background-color: #2c3e50;  /* Azul marino */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+}
+
+/* Efecto de transición suave entre secciones */
+html {
+   
